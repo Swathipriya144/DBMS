@@ -1,0 +1,28 @@
+<html>
+    <head>
+    <title>Booking page</title>
+    <link rel = "stylesheet" type = "text/css" href = "stylelogin.css">  
+</head>
+<body>
+<h1>Booking Details</h1>
+<center><form action="boking.php" method="post"  style="color:black;text-align:center;margin-right:1000px">
+<fieldset>
+Booking_ID<br><input type="text" name="Booking_ID"/><br><br>
+CheckIN<br><input type="datetime-local" name="CheckIN"/><br><br>
+CheckOUT<br><input type="datetime-local" name="CheckOUT"/><br><br>
+RoomNumber<br><input type="text" name="RoomNumber"/><br><br>
+Customer_ID<br><input type="text" name="Customer_ID"/><br><br>
+No_of_Nights<br><input type="number" name="No_of_Nights"/><br><br>
+BookType
+<br>
+<input type="radio" name="BookType" value="Online">
+<label for="Online">Online</label><br>
+<input type="radio" name="BookType" value="Offline">
+<label for="Offline">Offline</label>
+<br><br>
+BookTime<br><input type="datetime-local" name="BookTime"/><br><br>
+<input type="submit"/>
+</fieldset>
+</form></center>
+</body>
+</html>

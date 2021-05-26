@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Payment page</title>
+        <link rel = "stylesheet" type = "text/css" href = "stylelogin.css">  
+    </head>
+<body>
+<h1>Payment</h1>
+<form action="payment.php" method="post"  style="color:black;text-align:center;margin-right:1000px">
+<fieldset>
+Customer_ID<br><input type="text" name="Customer_ID"/><br><br>
+Booking_ID<br><input type="text" name="Booking_ID"/><br><br>
+TotalAmount<br><input type="text" name="TotalAmount"/><br><br>
+PaidAmount<br><input type="text" name="PaidAmount"/><br><br>
+BalanceAmount<br><input type="text" name="BalanceAmount"/><br><br>
+PaymentMode
+<br>
+<input type="radio" name="PaymentMode" value="Online">
+<label for="Online">Online</label><br>
+<input type="radio" name="PaymentMode" value="Offline">
+<label for="Offline">Offline</label>
+<br><br>
+
+
+<input type="submit"/>
+</fieldset>
+</form>
+</body>
+</html>
